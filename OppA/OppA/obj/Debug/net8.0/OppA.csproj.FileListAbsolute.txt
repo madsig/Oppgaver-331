@@ -1,0 +1,14 @@
+C:\Users\MadsI\Documents\Koding\GetAcademy\Emne 3\2023.12.04 - Oppgaver 331\OppA\OppA\bin\Debug\net8.0\OppA.exe
+C:\Users\MadsI\Documents\Koding\GetAcademy\Emne 3\2023.12.04 - Oppgaver 331\OppA\OppA\bin\Debug\net8.0\OppA.deps.json
+C:\Users\MadsI\Documents\Koding\GetAcademy\Emne 3\2023.12.04 - Oppgaver 331\OppA\OppA\bin\Debug\net8.0\OppA.runtimeconfig.json
+C:\Users\MadsI\Documents\Koding\GetAcademy\Emne 3\2023.12.04 - Oppgaver 331\OppA\OppA\bin\Debug\net8.0\OppA.dll
+C:\Users\MadsI\Documents\Koding\GetAcademy\Emne 3\2023.12.04 - Oppgaver 331\OppA\OppA\bin\Debug\net8.0\OppA.pdb
+C:\Users\MadsI\Documents\Koding\GetAcademy\Emne 3\2023.12.04 - Oppgaver 331\OppA\OppA\obj\Debug\net8.0\OppA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\MadsI\Documents\Koding\GetAcademy\Emne 3\2023.12.04 - Oppgaver 331\OppA\OppA\obj\Debug\net8.0\OppA.AssemblyInfoInputs.cache
+C:\Users\MadsI\Documents\Koding\GetAcademy\Emne 3\2023.12.04 - Oppgaver 331\OppA\OppA\obj\Debug\net8.0\OppA.AssemblyInfo.cs
+C:\Users\MadsI\Documents\Koding\GetAcademy\Emne 3\2023.12.04 - Oppgaver 331\OppA\OppA\obj\Debug\net8.0\OppA.csproj.CoreCompileInputs.cache
+C:\Users\MadsI\Documents\Koding\GetAcademy\Emne 3\2023.12.04 - Oppgaver 331\OppA\OppA\obj\Debug\net8.0\OppA.dll
+C:\Users\MadsI\Documents\Koding\GetAcademy\Emne 3\2023.12.04 - Oppgaver 331\OppA\OppA\obj\Debug\net8.0\refint\OppA.dll
+C:\Users\MadsI\Documents\Koding\GetAcademy\Emne 3\2023.12.04 - Oppgaver 331\OppA\OppA\obj\Debug\net8.0\OppA.pdb
+C:\Users\MadsI\Documents\Koding\GetAcademy\Emne 3\2023.12.04 - Oppgaver 331\OppA\OppA\obj\Debug\net8.0\OppA.genruntimeconfig.cache
+C:\Users\MadsI\Documents\Koding\GetAcademy\Emne 3\2023.12.04 - Oppgaver 331\OppA\OppA\obj\Debug\net8.0\ref\OppA.dll
