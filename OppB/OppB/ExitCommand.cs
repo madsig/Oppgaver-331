@@ -1,17 +1,18 @@
 ﻿namespace OppB
 {
-    class ClickCommand : ICommand
+    internal class ExitCommand : ICommand
     {
         private readonly ClickerGame _game;
-        public char Character { get; } = ' ';
+        public char Character { get; } = 'X';
 
-        public ClickCommand(ClickerGame game)
+        public ExitCommand(ClickerGame game)
         {
             _game = game;
         }
+
         public void Run()
         {
-            _game.Click();
+            _game.Exit();
         }
     }
 }

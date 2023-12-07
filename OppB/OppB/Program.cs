@@ -4,9 +4,8 @@
     {
         static void Main(string[] args)
         {
-            int points = 0;
-            int pointsPerClick = 1;
-            int pointsPerClickIncrease = 1;
+            var game = new ClickerGame();
+            var commandSet = new CommandSet(game);
 
             while (true)
             {
@@ -16,21 +15,10 @@
                                   + "koster 10 poeng\r\n - S = kjøp superoppgradering \r\n       "
                                   + "øker \"poeng per klikk\" for den vanlige oppgraderingen.\r\n       "
                                   + "koster 100 poeng\r\n - X = avslutt applikasjonen");
-                Console.WriteLine($"Du har {points} poeng.");
+                Console.WriteLine($"Du har {game.Points} poeng.");
                 Console.WriteLine("Trykk tast for ønsket kommando.");
-                var command = Console.ReadKey().KeyChar;
-                if (command == 'X') Environment.Exit(0);
-                else if (command == ' ') points += pointsPerClick;
-                else if (command == 'K' && points >= 10)
-                {
-                    points -= 10;
-                    pointsPerClick += pointsPerClickIncrease;
-                }
-                else if (command == 'S' && points >= 100)
-                {
-                    points -= 100;
-                    pointsPerClickIncrease++;
-                }
+                var command = Console.ReadKey().KeyChar; 
+                commandSet.Run(command);
             }
         }
     }

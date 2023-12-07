@@ -2,28 +2,30 @@
 {
     internal class ClickerGame
     {
-        private int _points;
+        public int Points { get; private set; }
         private int _pointsPerClick = 1;
         private int _pointsPerClickIncrease = 1;
 
         public void Click()
         {
-            _points++;
+            Points += _pointsPerClick;
         }
 
         public void Upgrade()
         {
-            if (_points >= 10)
+            if (Points >= 10)
             {
                 _pointsPerClick++;
+                Points -= 10;
             }
         }
 
         public void SuperUpgrade()
         {
-            if (_points >= 100)
+            if (Points >= 100)
             {
                 _pointsPerClickIncrease++;
+                Points -= 100;
             }
         }
 
